@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/eae2f2fff1.js" crossorigin="anonymous"></script>
+    <title>Tailwind Practise</title>
+</head>
+<body class="h-fit bg-radial-[at_40%_0%] from-zinc-600 via-zinc-800 to-zinc-900 from-0% bg-fixed text-white box-border">
+    <nav class=" fixed w-full flex justify-between items-center p-7">
+        <div class="logo w-[80px]" >
+            <img src="./assests/logo.png" alt="logo">
+        </div>
+        
+        <div class="flex gap-12 text-zinc-400 text-2xl">
+            <div class="cursor-pointer">
+                Pricing
+            </div>
+            <div class="cursor-pointer">
+                Contact
+            </div>
+        </div>
+    </nav>
+    <div class="flex fixed w-full bottom-0 justify-between items-center p-7">
+        <div class="flex flex-col gap-3.5 text-2xl text-zinc-400">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <div class="rotate-90 text-zinc-400">
+            SCROOL <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+    </div>
+    <header class="w-7xl h-screen p-8 m-auto flex flex-col">
+            <section class="flex-1 flex items-center justify-center ">
+
+                <div class="">
+                    <h1 class="text-9xl font-bold">
+                        TURA
+                    </h1>
+                    <p class="text-right pr-8 text-zinc-400">
+                        A junior <br> web builder
+                    </p>
+                </div>
+            </section>
+    </header>
+    <main class="w-7xl h-screen m-auto">
+        <section>
+
+            <div class="relative">
+                <div class="flex justify-between w-full px-[10px] ">
+                    <img src="./assests/dummy.jpg" alt="dummy" class="size-96">
+                    <img src="./assests/dummy.jpg" alt="dummy" class="size-96">
+                    <img src="./assests/dummy.jpg" alt="dummy" class="size-96">
+                </div>
+                <div class="absolute bottom-[-48%] z-2 w-full text-center flex flex-col ">
+                    <h1 class="text-6xl font-bold z-2">
+                        KEET CAFE
+                    </h1>
+                    <p class="h-[80px] mt-[30px] ">
+                        A cozy cafe offering freshly brewed coffee, artisan pastries, <br>
+                        and a relaxed atmosphere. Perfect for casual meetups, work sessions, or a quiet moment alone.
+                    </p>
+                    <button class="bg-black w-fit px-12 py-3 m-auto text-3xl cursor-pointer shadow-[15px_15px_7px_rgba(0,0,0,1)]">
+                        View Projects
+                    </button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
